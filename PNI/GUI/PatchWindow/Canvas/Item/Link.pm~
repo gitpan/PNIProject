@@ -1,0 +1,11 @@
+package PNI::GUI::PatchWindow::Canvas::Item::Link;
+
+use Moose;
+
+extends 'PNI::GUI::PatchWindow::Canvas::Item';
+
+no Moose;
+__PACKAGE__->meta->make_immutable;
+1;
+__END__
+
